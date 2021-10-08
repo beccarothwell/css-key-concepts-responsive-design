@@ -16,7 +16,7 @@ Ok.
 
 But our page sure looks ugly! 😿
 
-What is first thing we need to do before we start styling our page?
+What is the first thing we need to do before we start styling our page?
 
 ### Challenge One
 
@@ -27,10 +27,10 @@ Can you figure out how to add a CSS Reset to our project?
 Have a go.. if you get stuck, read on to find out how...
 
 
-#### Solution: Adding a CSS Reset
+#### How to add a CSS reset
 
 - create a file called reset.css
-- copy and paste in a css reset, this [meyerweb](https://meyerweb.com/eric/) reset does the job.
+- paste in a css reset, this [meyerweb](https://meyerweb.com/eric/) reset will do the job
 - add a link to your reset.css file in your html file's `<head>` tags. It should look something like this:
 `<link rel="stylesheet" type="text/css" href="reset.css">`
 
@@ -48,7 +48,7 @@ How can we arrange these so they look a little neater on the page?
 
 - Add [CSS flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to your elements to make them sit next to each other (horizontally) on the page. They should stack on top of each other (wrap) the smaller our screen size gets
 
-Hint: You might need to create a parent container for your cat cards and add a width to it
+Hint: You'll need to create a parent container for your cat cards and add a width to it
 
 - Don't forget to test how your page looks on different screen sizes using your browser tools!
 
@@ -60,20 +60,30 @@ If you get stuck this [flexbox froggy](https://flexboxfroggy.com/) tutorial shou
 
 Once our cards are sitting next to each other and looking more 'card' like...
 
-- Using fluid units of measurement can we change our text so it grows and shrinks to different screen sizes?
+- can you change our text so it grows and shrinks to different screen sizes using fluid units of measurement?
+
+- Best practices?
+
+- rem vs em?
+
+- walk them through adding a root element? hmmm... 
+
+- tip: root size 62.5% means root element is 10px rather than 16 = easier maths
+
+- should the cat images be rem?
 
 
 ## Media Queries
 
-Ok now our page is looking a little cattier and responsive, let's add some media queries to really spice things up!
+Ok now our page is looking a little cattier and responsive! Great job. Now let's add some media queries to *really* spice things up! 💃
 
 ### Challenge Paw 🐾
 
 - Using media queries, remove the `<h2>` element on screen sizes smaller than 400px wide
 
-- Using media queries, change the background colour of our card containers so they're a different colour for different screen sizes
+- Using media queries, change the background colour of our card containers so they're a different colour for 3 different screen sizes
 
-- Add a media query that checks what screen preferences a user has, if they prefer dark mode update your design to use dark mode
+- Add a media query that checks what screen preferences a user has. If they prefer dark mode your page should update to dark mode. You can test this by changing your System Preferences.
 
 
 ## Extension 
