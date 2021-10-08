@@ -1,26 +1,40 @@
 :root {
-    --bright: #8b249a;
-    --light: #baa8ba;
-    --plum: #813068;
-    --contrast: #be1a87;
-    --gray: #454545;
-    --violet: #9a719d;
+    --coral: #F05D5E;
+    --teal: #0F7173;
+    --light: #E7ECEF;
+    --dark: #272932;
+    --camel: #D8A47F;
 }
+
+body {
+    background-color: var(--light);
+}
+
+/* .pets-party-container {
+    border-style: solid;
+    border-color: var(--teal);
+    background-color: var(--teal);
+    border-width: 5px;
+    padding: 10px;
+} */
 
 .pet-container {
     padding: 10px;
     border-style: solid;
-    border-color: var(--bright);
+    border-color: var(--coral);
     border-width: 5px;
     background-color:var(--light);
+    /* background-color: var(--camel); */
+
+}
+
+img {
+    max-width: 200px;
 }
 
 .pet-name {
     color: var(--plum);
 }
 
-.birthday, .fav-foods {
-    color: var(--gray);
-}
 
 
