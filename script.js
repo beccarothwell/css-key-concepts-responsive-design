@@ -1,8 +1,8 @@
-const pets= [
+const cats= [
     {
-        "name" : "Purrsloud",
+        "name" : "Little Miss Purrfect",
         "species" : "Cat",
-        "favFoods" : ["wet food", "dry food", "wet food"],
+        "favFoods" : ["wet food", "dry food"],
         "birthYear" : 2016,
         "photo" : "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
     },
@@ -37,7 +37,7 @@ const pets= [
     {
         "name" : "Katy Purry",
         "species" : "Cat",
-        "favFoods" : ["bugs"],
+        "favFoods" : ["cigarettes", "coffee"],
         "birthYear" : 2015,
         "photo" : "https://www.rd.com/wp-content/uploads/2021/03/GettyImages-1183822926.jpg"
     },
@@ -59,17 +59,22 @@ const pets= [
 ];
 
 (function () {
-    const petImage = document.getElementsByClassName("pet-pic") // img
     const petNames = document.getElementsByClassName("pet-name") // h3
+    const petImage = document.getElementsByClassName("pet-pic") // img
+    const favFoods = document.getElementsByClassName("fav-foods") //p
+    const birthYear = document.getElementsByClassName("birth-year") //p
+    const species = document.getElementsByClassName("species")
 
     for (let i = 0; i < petImage.length; i++) {
-        petImage[i].src = pets[i].photo;
+        petNames[i].innerText = cats[i].name;
+        petImage[i].src = cats[i].photo;
+        favFoods[i].innerText = `Favourite foods: ${(cats[i].favFoods.map(food => food)).join(', ')}`
+        birthYear[i].innerText = `Birth Year: ${cats[i].birthYear}`
+        species[i].innerText = `Species: ${cats[i].species}`
+        
+
+        console.log((cats[i].favFoods.map(food => food)).join())
     }
-
-
-    // for (let i = 0; i < petNames.length; i++) {
-    //     petNames[i].innerText = pets[i].name;
-    // }
 })();
 
 

@@ -11,7 +11,17 @@
 
 ------
 
+Welcome to Feline Flexbox with Cat Cards!
+
+Follow the instructions in this Read Me to create your very own, feline flexy, responsive Cat page!
+
+# Step 1
+
 - Open your html document in the browser
+
+Right click your index.html page and select 'open in...' then select browser. Alternatively type 'open index.html' in your terminal and press enter.
+
+You should now see a collection of cute cat pictures
 -- notice how our elements stretch accross the page in a 'normal flow'. These are block level, in-line elements 
 
 

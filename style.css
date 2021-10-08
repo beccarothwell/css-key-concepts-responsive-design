@@ -10,13 +10,6 @@ body {
     background-color: var(--light);
 }
 
-/* .pets-party-container {
-    border-style: solid;
-    border-color: var(--teal);
-    background-color: var(--teal);
-    border-width: 5px;
-    padding: 10px;
-} */
 
 .pet-container {
     padding: 10px;
