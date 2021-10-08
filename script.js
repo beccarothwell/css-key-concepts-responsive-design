@@ -54,26 +54,65 @@ const cats= [
         "favFoods" : ["your soul"],
         "birthYear" : 2020,
         "photo" : "https://www.top13.net/wp-content/uploads/2015/10/perfectly-timed-cat-photos-funny-cover.jpg"
+    },
+    {
+        "name" : "Dopey",
+        "species" : "Cat",
+        "favFoods" : ["bugs"],
+        "birthYear" : 2018,
+        "photo" : "https://i1.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1"
+    },
+    {
+        "name" : "Blobby",
+        "species" : "Cat",
+        "favFoods" : ["your soul"],
+        "birthYear" : 2020,
+        "photo" : "https://www.top13.net/wp-content/uploads/2015/10/perfectly-timed-cat-photos-funny-cover.jpg"
+    },
+    {
+        "name" : "Dopey",
+        "species" : "Cat",
+        "favFoods" : ["bugs"],
+        "birthYear" : 2018,
+        "photo" : "https://i1.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1"
+    },
+    {
+        "name" : "Blobby",
+        "species" : "Cat",
+        "favFoods" : ["your soul"],
+        "birthYear" : 2020,
+        "photo" : "https://www.top13.net/wp-content/uploads/2015/10/perfectly-timed-cat-photos-funny-cover.jpg"
+    },
+    {
+        "name" : "Dopey",
+        "species" : "Cat",
+        "favFoods" : ["bugs"],
+        "birthYear" : 2018,
+        "photo" : "https://i1.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1"
+    },
+    {
+        "name" : "Blobby",
+        "species" : "Cat",
+        "favFoods" : ["your soul"],
+        "birthYear" : 2020,
+        "photo" : "https://www.top13.net/wp-content/uploads/2015/10/perfectly-timed-cat-photos-funny-cover.jpg"
     }
 
 ];
 
 (function () {
-    const petNames = document.getElementsByClassName("pet-name") // h3
-    const petImage = document.getElementsByClassName("pet-pic") // img
-    const favFoods = document.getElementsByClassName("fav-foods") //p
-    const birthYear = document.getElementsByClassName("birth-year") //p
+    const petNames = document.getElementsByClassName("cat-name") 
+    const petImage = document.getElementsByClassName("pet-pic") 
+    const favFoods = document.getElementsByClassName("fav-foods")
+    const birthYear = document.getElementsByClassName("birth-year")
     const species = document.getElementsByClassName("species")
 
-    for (let i = 0; i < petImage.length; i++) {
+    for (let i = 0; i < cats.length; i++) {
         petNames[i].innerText = cats[i].name;
         petImage[i].src = cats[i].photo;
         favFoods[i].innerText = `Favourite foods: ${(cats[i].favFoods.map(food => food)).join(', ')}`
         birthYear[i].innerText = `Birth Year: ${cats[i].birthYear}`
         species[i].innerText = `Species: ${cats[i].species}`
-        
-
-        console.log((cats[i].favFoods.map(food => food)).join())
     }
 })();
 
