@@ -18,7 +18,7 @@ But our page sure looks ugly! 😿
 
 What is first thing we need to do before we start styling our page?
 
-### Challenge 1
+### Challenge One
 
 - Add a css reset 
 
