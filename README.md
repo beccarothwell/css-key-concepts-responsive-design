@@ -27,7 +27,7 @@ Can you figure out how to add a CSS Reset to our project?
 Have a go.. if you get stuck, read on to find out how...
 
 
-#### Adding a CSS Reset:
+#### Solution: Adding a CSS Reset
 
 - create a file called reset.css
 - copy and paste in a css reset, this [meyerweb](https://meyerweb.com/eric/) reset does the job.
@@ -67,7 +67,7 @@ Once our cards are sitting next to each other and looking more 'card' like...
 
 Ok now our page is looking a little cattier and responsive, let's add some media queries to really spice things up!
 
-### Challenge Three
+### Challenge Paw 🐾
 
 - Using media queries, remove the `<h2>` element on screen sizes smaller than 400px wide
 
@@ -77,8 +77,6 @@ Ok now our page is looking a little cattier and responsive, let's add some media
 
 
 ## Extension 
-
-### Challenges paw 🐾
 
 * Use a Google font to style your text elements
 
