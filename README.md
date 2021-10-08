@@ -4,6 +4,8 @@ Welcome to Feline Flexbox with Cat Cards!
 
 Follow the instructions in this Read Me to create your very own, feline flexy, responsive Cat page!
 
+![alt text](https://s1.1zoom.me/big0/27/Cats_White_background_505955.jpg)
+
 ## Open your html document in the browser
 
 Type 'open index.html' in your terminal and press enter (make sure you're in the right directory!). Your Cat Cards page should open in your browser.
