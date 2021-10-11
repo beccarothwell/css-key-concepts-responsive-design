@@ -49,7 +49,7 @@ const cats= [
         "photo" : "https://www.rd.com/wp-content/uploads/2021/03/GettyImages-1183822926.jpg"
     },
     {
-        "name" : "Lawrence",
+        "name" : "Dr. Von Belly-Rub",
         "species" : "Cat",
         "favFoods" : ["salt"],
         "birthYear" : 2020,

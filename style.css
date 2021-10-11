@@ -10,32 +10,11 @@ body {
     background-color: var(--light);
 }
 
-/* .card-container {
-    background-color: burlywood;
-    max-width: 900px;
-    display: flex;
-    flex-wrap: wrap;
-    
-} 
-
-.cat-container {
+.card {
     padding: 10px;
     margin: 10px;
-    border-style: solid;
-    border-color: var(--coral);
-    border-width: 5px;
-    background-color:var(--light);
 }
-
-h1 {
-    font-size: 2rem;
-}  */
 
 img {
     width: 250px;
 }
-
-
-
-
-
