@@ -60,7 +60,7 @@ Top tip: add borders around your parent and child containers. This will help you
 
 - Don't forget to test how your page looks on different screen sizes using your browser tools!
 
-Flexbox can be challenging, so don't stress if it takes a while to get it right! If you get stuck this [flexbox froggy](https://flexboxfroggy.com/) tutorial should help 🐸
+Flexbox can be challenging, so don't worry if it takes a while to get it right. If you get stuck this [flexbox froggy](https://flexboxfroggy.com/) tutorial should help 🐸 
 
 ## Fluid vs Fixed Units of Measure
 
