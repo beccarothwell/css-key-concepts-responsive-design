@@ -98,13 +98,13 @@ Ok now our page is looking a little cattier, accessible and responsive! Purrfect
 
 ### Challenge Paw 🐾
 
-- Create a media query for min-width: 700px. Using rem, update our font-sizes to reflect this new screen size. 
+- Create a media query for min-width: 700px. Using rem, update our font-sizes so they will be larger for screen sizes with a min-width of 700px. 
 
-- Create a media query for min-width: 1000px. Using rem, update our font-sizes to reflect this screen size using rem. 
+- Create a media query for min-width: 1000px. Using rem, update our font-sizes again, so they will be larger for screen sizes with a min-width of 1000px.
 
 Top Tip: for a nice, visual way to check your media queries are working as expected, change the background colour of your cat page in each media query. Then check your page changes colour at the right break points using your browser inspect tools 🌈
 
-Top Tip: if you're unsure of what font-sizes to use this [article](https://learnui.design/blog/mobile-desktop-website-font-size-guidelines.html) has some suggestions
+Top Tip: if you're unsure of what font-sizes to use for different width screens (to ensure a good user experience), this [article](https://learnui.design/blog/mobile-desktop-website-font-size-guidelines.html) makes some good suggestions
 
 - Using media queries, hide the cat ipsum on mobile 
 
