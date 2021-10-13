@@ -113,7 +113,7 @@ Top Tip: if you're unsure of what font-sizes to use for different width screens 
 ## Extension 🔥
 
 * Use a Google font to style your text elements
-    - Tip: you may have to adjust your font sizes depending on the font style you pick to keep text legible
+    - Top Tip: you may have to adjust your font sizes depending on the font style you pick to keep text legible
 
 * Create a fake navbar for your page using Flexbox
     - Think about how this should look on mobile vs on desktop
