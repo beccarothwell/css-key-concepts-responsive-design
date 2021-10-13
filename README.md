@@ -8,11 +8,11 @@ Follow the instructions in this Read Me to create your very own, feline flexy, r
 
 ## Getting Started
 
-After forking this repository you will need to then clone the repo locally and open up your index.html file int he browser.
+After forking this repository you will need to then clone the repo locally and open up your index.html file in the browser.
 
-Type 'open index.html' in your terminal and press enter (make sure you're in the right directory!). Your Cat Cards page should open in your browser.
+Type 'open index.html' in your terminal and press enter (make sure you're in the right directory!). Your Cat Cards page should open in your browser. Alternatively, right click on your index.html file and select 'open with..' then select the browser of your choice.
 
-You should now see a collection of cute cat pictures and cat info. 
+You should now see a collection of cute cat pictures and cat info. Yay.
 
 -- Notice how our elements stretch accross the page, one on top of another. This is called the documents 'normal flow' or 'flow layout'. 
 
@@ -35,18 +35,18 @@ Have a go, if you get stuck read on to find out how...
 
 ### How to add a CSS reset
 
-- create a file called reset.css
-- paste in a css reset, this [meyerweb](https://meyerweb.com/eric/) reset will do the job nicely
-- add a link to your reset.css file in your html file's `<head>` tags. It should look something like this:
+- Create a file called reset.css
+- Paste in a css reset. This [meyerweb](https://meyerweb.com/eric/tools/css/reset/) reset will do the job nicely! Just scroll down the page and you'll see some CSS you can use. Alternatively, feel free to use a [different reset](https://css-tricks.com/reboot-resets-reasoning/) as there are plenty of different ones out there. If you're feeling adventurous you could even write your own!
+- Add a link to your reset.css file in your html file's `<head>` tags. It should look something like this:
 `<link rel="stylesheet" type="text/css" href="reset.css">`
 
 - Save and refresh your browser! ✨
 
--- Whoah, notice how our elements have changed. We have removed those pesky browser styles from our elements! Our html is now ready for us to add our own styles to. 🙌
+Whoah, notice how our elements have changed. We have removed those pesky browser styles from our elements! Our html is now ready for us to add our own styles to. 🙌
 
 ## Let's make those felines flex! 
 
-Currently our Cat cards are stacked one on top of each other. This doesn't look very nice. 
+Currently our Cat cards are stacked one on top of each other. This doesn't look very purrdy. 
 
 How can we arrange these so they look a little neater on the page?
 
@@ -56,7 +56,7 @@ How can we arrange these so they look a little neater on the page?
 
 Hint: You'll need to target the parent container for your cat cards and add a width to it
 
-Top tip: add borders around your parent and child containers. This will help you identify what's what 🙂
+Top tip: add temporary borders around your parent and child containers. This will help you identify what's what 🙂
 
 - Don't forget to test how your page looks on different screen sizes using your browser tools!
 
@@ -68,7 +68,7 @@ Once our cards are sitting next to each other and looking more 'card' like, let'
 
 Unfortunately, the creators of this repo have used pixels (fixed units of measurement) instead of fluid units for font size - and they call themselves developers!? 🤷‍♀️
 
-We don't want to use pixels for font size because it isn't good for accessibility. If a visually impaired user wanted to change their base font size in their browser settings to a larger or smaller size, pixels disallows the user from doing this, which can be frustrating. 😞 
+We don't want to use pixels for font size because it isn't good for accessibility. If a visually impaired user wanted to change their base font size in their browser settings to a larger or smaller size, pixels disallow the user from doing this, which can be frustrating. 😞 
 
 It’s generally considered best practice for accessibility to set your base font-size to 100% on the <html> element, and use relative units to handle all other font-size rules in your CSS.
 
