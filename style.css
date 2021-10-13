@@ -1,0 +1,20 @@
+:root {
+    --coral: #F05D5E;
+    --teal: #0F7173;
+    --light: #E7ECEF;
+    --dark: #272932;
+    --camel: #D8A47F;
+}
+
+body {
+    background-color: var(--light);
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    width: 250px;
+}
