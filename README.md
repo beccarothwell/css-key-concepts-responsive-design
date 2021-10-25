@@ -14,7 +14,7 @@ Type 'open index.html' in your terminal and press enter (make sure you're in the
 
 You should now see a collection of cute cat pictures and cat info. Yay.
 
--- Notice how our elements stretch accross the page, one on top of another. This is called the documents 'normal flow' or 'flow layout'. 
+-- Notice how our elements stretch across the page, one on top of another. This is called the documents 'normal flow' or 'flow layout'. 
 
 Ok. 
 
@@ -26,25 +26,26 @@ What is the first thing we need to do before we start styling a web page?
 
 - Add CSS Normalize
 
-Before we start styling our web page we need to add a CSS reset. This is because a lot of people that love cats are using old browsers which apply weird styles to our cat cards 🙀
+Before we start styling our web page we need to add a CSS reset. This is because a lot of people that love cats are using old browsers that apply inconsistent styles to our cat cards 🙀
 
-Can you figure out how to add a [CSS Normalize](https://necolas.github.io/normalize.css/) to our project? 
+Can you figure out how to add [CSS Normalize](https://necolas.github.io/normalize.css/) to our project? 
 
 Have a go, if you get stuck read on to find out how...
 
-
-### How to add a CSS reset
+### How to add a CSS Normalize
 
 - In the command line enter:
  
-```npm install normalize.css```
+  ```npm install normalize.css```
 
 - Add a link to your normalize file in your html file's `<head>` tags. It should look something like this:
 `<link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">`
 
 - Save and refresh your browser! ✨
 
-Oooh, notice how our elements have shifted slightly to the left? It's subtle, but we have removed those pesky browser inconsistencies from our elements! Our html is now ready for us to add our own styles to. 🙌
+Oooh, notice how our elements have shifted slightly to the left? It's subtle, but we have removed those pesky browser inconsistencies from our elements! Our html is now ready for us to add our own styles to 🙌
+
+Note: Normalize.css adds a lot of extra files we don't need (cat fluff). So feel free to tidy up and delete any that aren't necessary. Remember to update your stylesheet file path if you move the normalize.css file!
 
 ## Let's make those felines flex! 
 
