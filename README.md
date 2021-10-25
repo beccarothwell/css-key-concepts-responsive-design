@@ -40,11 +40,11 @@ Have a go, if you get stuck read on to find out how...
 ```npm install normalize.css```
 
 - Add a link to your normalize file in your html file's `<head>` tags. It should look something like this:
-`<link rel="stylesheet" type="text/css" href="normalize.css">`
+`<link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">`
 
 - Save and refresh your browser! ✨
 
-Oooh, notice how our elements have shifted slightly to the left? We have removed those pesky browser inconsistencies from our elements! Our html is now ready for us to add our own styles to. 🙌
+Oooh, notice how our elements have shifted slightly to the left? It's subtle, but we have removed those pesky browser inconsistencies from our elements! Our html is now ready for us to add our own styles to. 🙌
 
 ## Let's make those felines flex! 
 
