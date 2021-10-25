@@ -24,25 +24,27 @@ What is the first thing we need to do before we start styling a web page?
 
 ### Challenge One
 
-- Add a css reset
+- Add CSS Normalize
 
-Before we start styling our web page we need to add a CSS reset. This is because browsers add their own styling to HTML. These styles can clash with our own ones, causing weeiiird behaviour 🙀
+Before we start styling our web page we need to add a CSS reset. This is because a lot of people that love cats are using old browsers which apply weird styles to our cat cards 🙀
 
-Can you figure out how to add a CSS Reset to our project? 
+Can you figure out how to add a [CSS Normalize](https://necolas.github.io/normalize.css/) to our project? 
 
 Have a go, if you get stuck read on to find out how...
 
 
 ### How to add a CSS reset
 
-- Create a file called reset.css
-- Paste in a css reset. This [meyerweb](https://meyerweb.com/eric/tools/css/reset/) reset will do the job nicely! Just scroll down the page and you'll see some CSS you can use. Alternatively, feel free to use a [different reset](https://css-tricks.com/reboot-resets-reasoning/) as there are plenty of different ones out there. If you're feeling adventurous you could even write your own!
-- Add a link to your reset.css file in your html file's `<head>` tags. It should look something like this:
-`<link rel="stylesheet" type="text/css" href="reset.css">`
+- In the command line enter:
+ 
+```npm install normalize.css```
+
+- Add a link to your normalize file in your html file's `<head>` tags. It should look something like this:
+`<link rel="stylesheet" type="text/css" href="normalize.css">`
 
 - Save and refresh your browser! ✨
 
-Whoah, notice how our elements have changed. We have removed those pesky browser styles from our elements! Our html is now ready for us to add our own styles to. 🙌
+Oooh, notice how our elements have shifted slightly to the left? We have removed those pesky browser inconsistencies from our elements! Our html is now ready for us to add our own styles to. 🙌
 
 ## Let's make those felines flex! 
 
