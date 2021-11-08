@@ -28,7 +28,6 @@ Have a go, if you get stuck read on to find out how...
 <details>
 <summary>Your index page head should look like this</summary>
 <pre>
-:
 
 ```
 <head>
