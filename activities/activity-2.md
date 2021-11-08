@@ -11,4 +11,4 @@ Top tip: add temporary borders around your parent and child containers. This wil
 Note: Flexbox can be challenging, so don't worry if it takes a while to get it right. If you get stuck this [flexbox froggy](https://flexboxfroggy.com/) tutorial should help 🐸 
 
 
-If your Cats are playing nicely with each other and stacking in mobile - you're ready for [Activity-3](./activity-3.md)
+If your cats are playing nicely and stacking in mobile - you're ready for [Activity-3](./activity-3.md)
