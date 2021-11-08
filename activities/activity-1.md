@@ -26,7 +26,7 @@ Have a go, if you get stuck read on to find out how...
 - Step 3: Save and refresh your browser! ✨
 
 <details>
-<summary>Your index page <head> should look like this</summary>
+<summary>Your index page head should look like this</summary>
 <pre>
 :
 
