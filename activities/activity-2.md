@@ -2,7 +2,7 @@
 
 - Add [CSS flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to your elements to make them sit next to each other (horizontally) on the page. Three or four across on Desktop should look good. They should then stack on top of each other (wrap) the smaller our screen size gets.
 
-Hint: You'll need to target the parent container for your cat cards and add a width to it
+Hint: You'll need to target the parent container for your cat cards with `display: flex;`
 
 Top tip: add temporary borders around your parent and child containers. This will help you identify what's what 👍
 
