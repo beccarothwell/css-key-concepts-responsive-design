@@ -28,8 +28,8 @@ Now set the p selector to font-size 0.75rem (12px).
 
 Great job! Our cat page now allows users to change the base font size in their browser as well as by zooming in or out.
 
-To test this on Google Chrome, go to the browser `Settings > Appearance > Font Size` then select different font sizes and refresh your Cat page. Depending on what base font size you selected, your text should have grown or shrunk accordingly.
+To test this on Google Chrome, go to the browser `Settings > Appearance > Font Size` then select different font sizes (very small to very large) and refresh your Cat page. Depending on what base font size you selected, your text should have grown or shrunk accordingly. If you change your font-sizes to pixels and try changing the browser base font style again, you'll see pixels don't grow and shrink because they are fixed units of measure!
 
-Changing the base font size in other browsers should be similar (look in settings), have a go - if you get stuck reach out to one of the Tech Coaches for help 🙂
+Note: Changing the base font size in other browsers should be similar (look in your settings), have a go - if you get stuck reach out to one of the Tech Coaches for help 🙂
 
 Ready for more? See [Activity 4](./activity-4.md)
