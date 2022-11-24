@@ -27,7 +27,7 @@ To test this on Google Chrome, go to the browser `Settings > Appearance > Font S
 
 💡 Note: Changing the base font size in other browsers should be similar (look in your settings). Have a go - if you get stuck reach out to us for help 🙂
 
-Have a play around by changing your font-sizes to pixels and change your browsers base font style again. You'll see the pixel values don't grow and shrink!
+Have a play around by changing your font-sizes to pixels and change your browsers base font style again. You'll see the pixel values don't grow and shrink! Remember to change back to rem when you're done 👍
 
 If you'd like to learn more about units of measure and accessibility, Josh Comeau wrote a brilliant article on this [here](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/#accessibility-considerations).
 
