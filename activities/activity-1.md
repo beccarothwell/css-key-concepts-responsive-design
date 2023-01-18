@@ -6,6 +6,8 @@ Before we start styling our web page it can be useful to add a CSS reset. Perhap
 
 Let's look at the different ways to add CSS Normalize.
 
+Note: There is debate around best ways to do this - or if you should even do this at all! Some people prefer to write their own CSS resets, or borrow from other people. Normalize is just one CSS reset that is favoured at the moment. 
+
 In a more complex app, where we were using npm to manage our packages (e.g. a React app) then we'd normally install dependencies via npm. could use `npm install @csstools/normalize.css`.
 
 Alternatively we could use `@import-normalize;` in our CSS file, as described here: https://create-react-app.dev/docs/adding-css-reset/
