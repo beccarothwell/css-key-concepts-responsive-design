@@ -12,7 +12,7 @@ After forking this repository you will need to then clone the repo locally and o
 
 You should now see a collection of cute cat pictures and cat info. Yay.
 
--- Notice how our elements stretch across the page, one on top of another. This is called the documents 'normal flow' or 'flow layout'.
+-- Notice how our elements stretch across the page, one on top of another. This is what happens to "block" elements when they are in "normal flow" or "flow layout" (basically, before any changes have been made to the document!).
 
 Ok.
 
