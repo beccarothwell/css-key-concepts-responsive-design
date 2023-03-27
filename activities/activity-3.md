@@ -19,7 +19,7 @@ Because of this, it’s generally considered best practice to use relative units
 
 👉 In your `style.css` file, set the `h1` selector to font-size 2.25rem (36px).
 
-👉 Now set the `p` selector to font-size 0.75rem (12px).
+👉 Now target your other elements so they use rem as well
 
 Great job! Our cat page now allows users to change the base font size in their browser as well as using their browsers Zoom.
 
