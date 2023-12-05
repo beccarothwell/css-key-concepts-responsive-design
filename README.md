@@ -4,7 +4,7 @@ Welcome to Feline Flexbox with Cat Cards!
 
 Follow the instructions in this Read Me to create your very own, feline flexy, responsive Cat page! Me-ow!
 
-![Clawy cat](./clawy.jpeg)
+![Clawy cat](./images/clawy.jpeg)
 
 ## Getting Started
 
